@@ -1,0 +1,195 @@
+Dijkstra v1.1
+-------------
+
+0 - Load map frop csv file
+1 - Choose starting city
+2 - Choose destination
+3 - Find shortest path
+M - MENU
+E - Exit
+
+Your choice:
+Choose starting city
+
+Map is not initialized!
+
+Your choice:
+Choose destination
+
+Map is not initialized!
+
+Your choice:
+Load map frop csv file
+Map initialized!
+Number of cities loaded: 16
+
+Loaded cities:
+Index	-	city
+0	-	Zlin
+1	-	Uherske Hradiste
+2	-	Slusovice
+3	-	Slavicin
+4	-	Otrokovice
+5	-	Hulin
+6	-	Kromeriz
+7	-	Holesov
+8	-	Bystrice pod Hostynem
+9	-	Frystak
+10	-	Stare Mesto
+11	-	Uhersky Brod
+12	-	Luhacovice
+13	-	Vizovice
+14	-	Valasske Mezirici
+15	-	Vsetin
+
+Your choice:
+Find shortest path
+
+myMalloc: allocating 16 bytes, memory allocated 16 bytes
+myMalloc: allocating 64 bytes, memory allocated 80 bytes
+Zlin is unreachable
+myFree: releasing 16 bytes, memory allocated 64 bytes
+myFree: releasing 64 bytes, memory allocated 0 bytes
+
+Your choice:
+Choose starting city
+
+
+Loaded cities:
+Index	-	city
+0	-	Zlin
+1	-	Uherske Hradiste
+2	-	Slusovice
+3	-	Slavicin
+4	-	Otrokovice
+5	-	Hulin
+6	-	Kromeriz
+7	-	Holesov
+8	-	Bystrice pod Hostynem
+9	-	Frystak
+10	-	Stare Mesto
+11	-	Uhersky Brod
+12	-	Luhacovice
+13	-	Vizovice
+14	-	Valasske Mezirici
+15	-	Vsetin
+Enter index of city or -1 for default
+City with that index not found. Setting starting city to default value.
+
+Your choice:
+Choose starting city
+
+
+Loaded cities:
+Index	-	city
+0	-	Zlin
+1	-	Uherske Hradiste
+2	-	Slusovice
+3	-	Slavicin
+4	-	Otrokovice
+5	-	Hulin
+6	-	Kromeriz
+7	-	Holesov
+8	-	Bystrice pod Hostynem
+9	-	Frystak
+10	-	Stare Mesto
+11	-	Uhersky Brod
+12	-	Luhacovice
+13	-	Vizovice
+14	-	Valasske Mezirici
+15	-	Vsetin
+Enter index of city or -1 for default
+City with that index not found. Setting starting city to default value.
+
+Your choice:
+Choose starting city
+
+
+Loaded cities:
+Index	-	city
+0	-	Zlin
+1	-	Uherske Hradiste
+2	-	Slusovice
+3	-	Slavicin
+4	-	Otrokovice
+5	-	Hulin
+6	-	Kromeriz
+7	-	Holesov
+8	-	Bystrice pod Hostynem
+9	-	Frystak
+10	-	Stare Mesto
+11	-	Uhersky Brod
+12	-	Luhacovice
+13	-	Vizovice
+14	-	Valasske Mezirici
+15	-	Vsetin
+Enter index of city or -1 for default
+New starting city is now Slusovice with index of 2
+
+Your choice:
+Choose destination
+
+
+Loaded cities:
+Index	-	city
+0	-	Zlin
+1	-	Uherske Hradiste
+2	-	Slusovice
+3	-	Slavicin
+4	-	Otrokovice
+5	-	Hulin
+6	-	Kromeriz
+7	-	Holesov
+8	-	Bystrice pod Hostynem
+9	-	Frystak
+10	-	Stare Mesto
+11	-	Uhersky Brod
+12	-	Luhacovice
+13	-	Vizovice
+14	-	Valasske Mezirici
+15	-	Vsetin
+Enter index of city or -1 for default
+New destination is now Valasske Mezirici with index of 14
+
+Your choice:
+Find shortest path
+
+myMalloc: allocating 16 bytes, memory allocated 16 bytes
+myMalloc: allocating 64 bytes, memory allocated 80 bytes
+myMalloc: allocating 1312 bytes, memory allocated 1392 bytes
+myRealloc: allocating 1312 bytes, memory allocated 2704 bytes
+myFree: releasing 2624 bytes, memory allocated 80 bytes
+
+The shortest path from Slusovice to Valasske Mezirici is 39 km long
+To Zlin [12] km
+To Uherske Hradiste [40] km
+To Slusovice [0] km
+To Slavicin [28] km
+To Otrokovice [21] km
+To Hulin [37] km
+To Kromeriz [45] km
+To Holesov [31] km
+To Bystrice pod Hostynem [42] km
+To Frystak [20] km
+To Stare Mesto [39] km
+To Uhersky Brod [53] km
+To Luhacovice [40] km
+To Vizovice [11] km
+To Valasske Mezirici [39] km
+To Vsetin [19] km
+
+myFree: releasing 16 bytes, memory allocated 64 bytes
+myFree: releasing 64 bytes, memory allocated 0 bytes
+
+Your choice:
+0 - Load map frop csv file
+1 - Choose starting city
+2 - Choose destination
+3 - Find shortest path
+M - MENU
+E - Exit
+
+Your choice:
+Exit
+
+Exiting
